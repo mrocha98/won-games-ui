@@ -13,5 +13,8 @@ module.exports = {
   webpackFinal: (config) => {
     config.resolve.modules.push(`${process.cwd()}/src`)
     return config
+  },
+  reactOptions: {
+    fastRefresh: true,
   }
 }
