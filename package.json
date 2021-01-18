@@ -13,6 +13,7 @@
     "test:bail": "yarn test --bail",
     "test:watch": "yarn test --watch",
     "storybook:build": "build-storybook -s ./public",
+    "prestorybook:start": "yarn storybook:build",
     "storybook:start": "start-storybook -s ./public -p 6006",
     "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
@@ -44,8 +45,8 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
-    "@storybook/addon-essentials": "^6.1.11",
-    "@storybook/react": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.14",
+    "@storybook/react": "^6.1.14",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@types/jest": "^26.0.19",
@@ -69,7 +70,7 @@
     "lint-staged": "^10.5.3",
     "plop": "^2.7.4",
     "prettier": "^2.2.1",
-    "storybook-addon-next-router": "^2.0.0",
+    "storybook-addon-next-router": "^2.0.3",
     "typescript": "^4.1.3"
   }
 }
