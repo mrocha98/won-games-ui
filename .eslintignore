@@ -2,4 +2,5 @@
 coverage/
 node_modules/
 public/
+storybook-static/
 jest.config.js
