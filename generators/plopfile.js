@@ -36,7 +36,7 @@ module.exports = function (plop) {
         type: 'add',
         path:
           '../src/components/{{pascalCase name}}/{{kebabCase name}}.styles.tsx',
-        templateFile: 'templates/styles.tsx.hbs'
+        templateFile: 'templates/styles.ts.hbs'
       }
     ]
   })
