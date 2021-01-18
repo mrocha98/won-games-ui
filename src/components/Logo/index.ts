@@ -1,1 +1,2 @@
-export { Logo, LogoProps } from './logo.component'
+export { Logo } from './logo.component'
+export type { LogoProps } from './logo.component'
