@@ -13,7 +13,6 @@
     "test:bail": "yarn test --bail",
     "test:watch": "yarn test --watch",
     "storybook:build": "build-storybook -s ./public",
-    "prestorybook:start": "yarn storybook:build",
     "storybook:start": "start-storybook -s ./public -p 6006",
     "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
