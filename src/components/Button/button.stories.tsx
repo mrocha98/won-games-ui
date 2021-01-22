@@ -33,3 +33,12 @@ withIcon.args = {
   children: 'Buy now',
   icon: <AddShoppingCart />
 }
+
+export const asLink: Story<ButtonProps> = (args) => <Button {...args} />
+
+asLink.args = {
+  size: 'large',
+  children: 'Sign In',
+  as: 'a',
+  href: '/signin'
+}
