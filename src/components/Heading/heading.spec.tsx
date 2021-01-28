@@ -57,4 +57,11 @@ describe('<Heading />', () => {
       screen.getByRole('heading', { name: /lorem ipsum/i })
     ).toHaveStyleRule('width', '3rem', { modifier: '::after' })
   })
+
+  it('should render a heading with a huge size', () => {
+    renderWithTheme(<Heading size="huge">Lorem ipsum</Heading>)
+    expect(screen.getByRole('heading', { name: /lorem ipsum/i })).toHaveStyle({
+      'font-size': '5.2rem'
+    })
+  })
 })
