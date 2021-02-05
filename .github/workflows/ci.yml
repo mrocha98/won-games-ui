@@ -17,14 +17,11 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Typecheck
+        run: yarn typecheck
+
       - name: Linting
         run: yarn lint
 
       - name: Test
         run: yarn test --coverage=false
-
-      - name: Build app
-        run: yarn build
-
-      - name: Build storybook
-        run: yarn storybook:build --quiet

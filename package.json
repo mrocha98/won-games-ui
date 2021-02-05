@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "lint": "eslint --ext ts,tsx src --max-warnings=0",
     "lint:fix": "yarn lint --fix",
     "test": "NODE_ENV=test jest",
@@ -14,7 +15,7 @@
     "test:watch": "yarn test --watch",
     "storybook:build": "build-storybook -s ./public",
     "storybook:start": "start-storybook -s ./public -p 6006",
-    "generate": "yarn plop --plopfile ./generators/plopfile.js"
+    "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "husky": {
     "hooks": {
