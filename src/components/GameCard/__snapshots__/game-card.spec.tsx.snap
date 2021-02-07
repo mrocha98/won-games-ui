@@ -160,7 +160,10 @@ exports[`<GameCard /> should match snapshot 1`] = `
   <div
     class="c1"
   >
-    <img />
+    <img
+      alt="Godzilla Giroflex"
+      src="/img/red-dead-img.jpg"
+    />
   </div>
   <div
     class="c2"
@@ -170,10 +173,14 @@ exports[`<GameCard /> should match snapshot 1`] = `
     >
       <h3
         class="c4"
-      />
+      >
+        Godzilla Giroflex
+      </h3>
       <h4
         class="c5"
-      />
+      >
+        Mozilla Foundation
+      </h4>
     </div>
     <div
       class="c6"
@@ -202,7 +209,9 @@ exports[`<GameCard /> should match snapshot 1`] = `
     >
       <div
         class="c9"
-      />
+      >
+        R$ 420,69
+      </div>
       <button
         class="c10"
       >

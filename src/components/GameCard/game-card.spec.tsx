@@ -93,7 +93,7 @@ describe('<GameCard />', () => {
   })
 
   it('should match snapshot', () => {
-    const { container } = renderWithTheme(<GameCard />)
+    const { container } = renderWithTheme(<GameCard {...props} />)
 
     expect(container.firstChild).toMatchSnapshot()
   })
