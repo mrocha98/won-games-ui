@@ -2,6 +2,8 @@ import { InputHTMLAttributes } from 'react'
 
 import * as S from './radio.styles'
 
+type RadioValue = string | ReadonlyArray<string> | number
+
 export type RadioProps = {
   onCheck?: (value?: RadioValue) => void
   label?: string
