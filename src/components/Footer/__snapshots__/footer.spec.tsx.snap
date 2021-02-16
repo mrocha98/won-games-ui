@@ -166,7 +166,7 @@ exports[`<Footer /> should match the snapshot 1`] = `
         class="c4 c5"
         color="black"
       >
-        Contact
+        Contact Us
       </h2>
       <nav
         aria-labelledby="contact"

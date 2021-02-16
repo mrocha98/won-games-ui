@@ -4,7 +4,12 @@ import { UserDropdown, UserDropdownProps } from '.'
 
 export default {
   title: 'UserDropdown',
-  component: UserDropdown
+  component: UserDropdown,
+  parameters: {
+    backgrounds: {
+      default: 'won-dark'
+    }
+  }
 } as Meta
 
 const Container = styled.div`

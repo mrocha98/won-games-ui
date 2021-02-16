@@ -9,6 +9,9 @@ export default {
       name: 'content',
       type: 'string'
     }
+  },
+  args: {
+    color: 'black'
   }
 } as Meta
 

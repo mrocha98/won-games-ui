@@ -7,16 +7,28 @@ import theme from 'styles/theme'
 
 addDecorator(withNextRouter())
 
+export const parameters = {
+  backgrounds: {
+    default: 'won-light',
+    values: [
+      {
+        name: 'won-light',
+        value: theme.colors.white
+      },
+      {
+        name: 'won-dark',
+        value: theme.colors.mainBg
+      }
+    ]
+  },
+  controls: { expanded: true }
+}
+
 export const decorators = [
   (Story) => (
     <ThemeProvider theme={theme}>
-      <GlobalStyles />
+      <GlobalStyles removeBg />
       <Story />
     </ThemeProvider>
   )
 ]
-
-export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
-  controls: { expanded: true }
-}
