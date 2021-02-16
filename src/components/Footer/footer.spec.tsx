@@ -14,7 +14,7 @@ describe('<Footer />', () => {
     renderWithTheme(<Footer />)
 
     expect(
-      screen.getByRole('heading', { name: /contact/i })
+      screen.getByRole('heading', { name: /contact us/i })
     ).toBeInTheDocument()
   })
 
