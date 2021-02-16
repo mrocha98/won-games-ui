@@ -20,8 +20,7 @@ export const parameters = {
         value: theme.colors.mainBg
       }
     ]
-  },
-  controls: { expanded: true }
+  }
 }
 
 export const decorators = [
