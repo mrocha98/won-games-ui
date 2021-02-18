@@ -42,8 +42,8 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-typescript": "^7.12.13",
-    "@storybook/addon-essentials": "^6.1.17",
-    "@storybook/react": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.18",
+    "@storybook/react": "^6.1.18",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.2",
@@ -67,7 +67,7 @@
     "lint-staged": "^10.5.4",
     "plop": "^2.7.4",
     "prettier": "^2.2.1",
-    "storybook-addon-next-router": "^2.0.3",
+    "storybook-addon-next-router": "^2.0.4",
     "typescript": "^4.1.5"
   }
 }
