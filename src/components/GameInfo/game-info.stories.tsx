@@ -4,7 +4,7 @@ import { GameInfo, GameInfoProps } from '.'
 import { game } from './mock'
 
 export default {
-  title: 'GameInfo',
+  title: 'Game/GameInfo',
   component: GameInfo,
   parameters: {
     backgrounds: {
