@@ -42,8 +42,9 @@
   "devDependencies": {
     "@babel/core": "^7.12.17",
     "@babel/preset-typescript": "^7.12.13",
+    "@storybook/addon-backgrounds": "^6.1.21",
     "@storybook/addon-essentials": "^6.1.21",
-    "@storybook/react": "^6.1.18",
+    "@storybook/react": "^6.1.21",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
