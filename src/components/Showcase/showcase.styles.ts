@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
 
-import { Wrapper as Container } from 'components/Container/container.styles'
+import { Container } from 'components/Container'
 import { Wrapper as Heading } from 'components/Heading/heading.styles'
 import { Wrapper as GameCardSlider } from 'components/GameCardSlider/game-card-slider.styles'
 import { Wrapper as Highlight } from 'components/Highlight/highlight.styles'
