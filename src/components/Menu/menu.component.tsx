@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import NextLink from 'next/link'
+import Link from 'next/link'
 import { Menu2 as MenuIcon } from '@styled-icons/remix-fill/Menu2'
 import { ShoppingCart as ShoppingCartIcon } from '@styled-icons/material-outlined/ShoppingCart'
 import { Search as SearchIcon } from '@styled-icons/material-outlined/Search'
@@ -26,13 +26,21 @@ export const Menu = ({ username }: MenuProps) => {
       </MediaMatch>
 
       <S.LogoWrapper>
-        <Logo hideOnMobile />
+        <Link href="/" passHref>
+          <a>
+            <Logo hideOnMobile />
+          </a>
+        </Link>
       </S.LogoWrapper>
 
       <MediaMatch greaterThan="medium">
         <S.MenuNav>
-          <S.MenuLink href="#">Home</S.MenuLink>
-          <S.MenuLink href="#">Explore</S.MenuLink>
+          <Link href="/">
+            <S.MenuLink>Home</S.MenuLink>
+          </Link>
+          <Link href="/explore">
+            <S.MenuLink>Explore</S.MenuLink>
+          </Link>
         </S.MenuNav>
       </MediaMatch>
 
@@ -45,9 +53,9 @@ export const Menu = ({ username }: MenuProps) => {
         </S.IconWrapper>
         {!username && (
           <MediaMatch greaterThan="medium">
-            <NextLink href="/sign-in" passHref>
+            <Link href="/sign-in" passHref>
               <Button as="a">Sign in</Button>
-            </NextLink>
+            </Link>
           </MediaMatch>
         )}
       </S.MenuGroup>
@@ -55,28 +63,34 @@ export const Menu = ({ username }: MenuProps) => {
       <S.MenuFull aria-hidden={!isOpen} isOpen={isOpen}>
         <CloseIcon aria-label="Close Menu" onClick={() => setIsOpen(false)} />
         <S.MenuNav>
-          <S.MenuLink href="#">Home</S.MenuLink>
-          <S.MenuLink href="#">Explore</S.MenuLink>
+          <Link href="/">
+            <S.MenuLink href="#">Home</S.MenuLink>
+          </Link>
+          <Link href="/explore">
+            <S.MenuLink href="#">Explore</S.MenuLink>
+          </Link>
 
           {!!username && (
             <>
               <S.MenuLink href="#">My account</S.MenuLink>
-              <S.MenuLink href="#">Wishlist</S.MenuLink>
+              <Link href="/wishilist">
+                <S.MenuLink>Wishlist</S.MenuLink>
+              </Link>
             </>
           )}
         </S.MenuNav>
 
         {!username && (
           <S.RegisterBox>
-            <NextLink href="/sign-in" passHref>
+            <Link href="/sign-in" passHref>
               <Button as="a" fullWidth size="large">
                 Sign in now
               </Button>
-            </NextLink>
+            </Link>
             <span>or</span>
-            <NextLink href="/sign-up" passHref>
+            <Link href="/sign-up" passHref>
               <S.CreateAccount title="Sign up">Sign Up</S.CreateAccount>
-            </NextLink>
+            </Link>
           </S.RegisterBox>
         )}
       </S.MenuFull>
