@@ -14,7 +14,14 @@ jobs:
         with:
           node-version: 14.x
 
+      - name: Setup node_modules cache
+        uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
       - name: Install dependencies
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile --silent 2> >(grep -v warning 1>&2)
 
       - name: Typecheck
