@@ -58,4 +58,10 @@ describe('<GameDetails />', () => {
 
     expect(screen.getByText('Role-playing / Narrative')).toBeInTheDocument()
   })
+
+  it('should render the publisher', () => {
+    renderWithTheme(<GameDetails {...props} />)
+
+    expect(screen.getByText(props.publisher)).toBeInTheDocument()
+  })
 })
