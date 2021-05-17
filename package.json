@@ -42,7 +42,7 @@
     "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.0",
+    "@babel/core": "^7.14.2",
     "@babel/preset-typescript": "^7.13.0",
     "@storybook/addon-backgrounds": "^6.2.7",
     "@storybook/addon-essentials": "^6.2.9",
