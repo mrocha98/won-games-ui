@@ -10,9 +10,8 @@ describe('<FormSignUp />', () => {
     const inputNameElement = screen.getByPlaceholderText(/name/i)
     const inputEmailElement = screen.getByPlaceholderText(/email/i)
     const inputPasswordElement = screen.getByPlaceholderText('Password')
-    const inputConfirmPasswordElement = screen.getByPlaceholderText(
-      'Confirm password'
-    )
+    const inputConfirmPasswordElement =
+      screen.getByPlaceholderText('Confirm password')
     const buttonElement = screen.getByRole('button', { name: /sign up now/i })
 
     expect(inputNameElement).toBeInTheDocument()
