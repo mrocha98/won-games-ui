@@ -61,9 +61,11 @@ describe('<Button />', () => {
       color: '#F231A5'
     })
 
-    expect(
-      screen.getByRole('button', { name: /buy now/i })
-    ).toHaveStyleRule('background', 'none', { modifier: ':hover' })
+    expect(screen.getByRole('button', { name: /buy now/i })).toHaveStyleRule(
+      'background',
+      'none',
+      { modifier: ':hover' }
+    )
   })
 
   it('should render Button as a link', () => {
