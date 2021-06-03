@@ -30,8 +30,9 @@ describe('<TextContent />', () => {
 
   it('should use white color for title in mobile and black in desktop', () => {
     renderWithTheme(<TextContent {...props} />)
-    const wrapper = screen.getByRole('heading', { name: /description/i })
-      .parentElement
+    const wrapper = screen.getByRole('heading', {
+      name: /description/i
+    }).parentElement
 
     expect(wrapper).toHaveStyle({
       color: '#FAFAFA'
