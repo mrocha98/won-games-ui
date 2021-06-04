@@ -1,7 +1,22 @@
 {
-  "name": "nextjs-storybook-template",
+  "name": "won-games-ui",
   "version": "0.1.0",
   "private": true,
+  "license": "BSD-3-Clause-Clear",
+  "author": {
+    "name": "Matheus Rocha",
+    "email": "matheus_rocha98@outlook.com"
+  },
+  "description": "Games E-commerce similar to Steam. This repository is my implementation of React Avançado's course of Willian Justen.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrocha98/won-games-ui.git"
+  },
+  "engines": {
+    "node": ">=14.x",
+    "npm": ">=6.x",
+    "yarn": "1.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
