@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartList /> should render the cart list 1`] = `
+.c0 {
+  background: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+}
+
+.c1 {
+  background: #eee;
+  color: #030517;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  color: #F231A5;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    font-size: 1.6rem;
+    padding: 2.4rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    data-testid="game-item"
+  />
+  <div
+    data-testid="game-item"
+  />
+  <footer
+    class="c1"
+  >
+    Total 
+    <span
+      class="c2"
+    >
+      R$ 330,00
+    </span>
+  </footer>
+</div>
+`
