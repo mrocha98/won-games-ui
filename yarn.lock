@@ -9141,10 +9141,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-11.0.0.tgz#24d0a95aa316ba28e257f5c4613369a75a10c712"
-  integrity sha512-3rsRIoyaE8IphSUtO1RVTFl1e0SLBtxxUOPBtHxQgBHS5/i6nqvjcUfNioMa4BU9yGnPzbO+xkfLtXtxBpCzjw==
+lint-staged@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-11.0.1.tgz#1b8ae8ed5a52ed87252db95fe008c2618c85f55a"
+  integrity sha512-RkTA1ulE6jAGFskxpGAwxfVRXjHp7D9gFg/+KMARUWMPiVFP0t28Em2u0gL8sA0w3/ck3TC57F2v2RNeQ5XPnw==
   dependencies:
     chalk "^4.1.1"
     cli-truncate "^2.1.0"
@@ -9803,10 +9803,10 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-next-pwa@^5.2.22:
-  version "5.2.22"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.2.22.tgz#023d45fd6147b58a822ae62971315fc0ac34e350"
-  integrity sha512-vz421zY4Z1J6u2SLwsghiSs8LgiOxSPiR8LuhqDhFoYC9GK4G5tleVWyoBZzXA2gG27oNlItGK7fM5NLbRGR8g==
+next-pwa@^5.2.23:
+  version "5.2.23"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.2.23.tgz#581a50bc9892c9d3ae7be5c9bbf590becf376f0e"
+  integrity sha512-nGYp0zliA0lJBoKETEZgW4kaiBckF8m9xpBw3VQ+EyVJ57Bn5HfFeNZUvFi2mvDiiwBuqf34baQIt8EhiN8k+A==
   dependencies:
     babel-loader "^8.2.2"
     clean-webpack-plugin "^3.0.0"
