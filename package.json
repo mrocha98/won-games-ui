@@ -67,7 +67,7 @@
     "@types/jest": "^26.0.24",
     "@types/node": "^16.3.2",
     "@types/react": "^17.0.13",
-    "@types/react-slick": "^0.23.4",
+    "@types/react-slick": "^0.23.5",
     "@types/styled-components": "^5.1.11",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
