@@ -2585,12 +2585,12 @@
     resolve-from "^5.0.0"
     store2 "^2.12.0"
 
-"@styled-icons/boxicons-regular@^10.37.0":
-  version "10.37.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/boxicons-regular/-/boxicons-regular-10.37.0.tgz#b83da3e9d9d961dc55f28feac96b659cb4194dae"
-  integrity sha512-FAa8Nhn/ZABbrKP1lAVGJwphiuFssa2cx0Vv2AsY/RVwy6bL7FNjzq4H9iTMxSWyHAYPT3+sAODgZ9QjH8yIFA==
+"@styled-icons/boxicons-regular@^10.38.0":
+  version "10.38.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/boxicons-regular/-/boxicons-regular-10.38.0.tgz#1eb80b4f94a18a9b77b11dee5204aa23378d37ec"
+  integrity sha512-xjhafoa0/EeYtQOyTw+ohuSlBx599t8l8++JH1tQlM0l73dP4icTpF4znYL+HhZeaUe3D+UhrkfWuBBua2w2Qw==
   dependencies:
-    "@babel/runtime" "^7.14.8"
+    "@babel/runtime" "^7.15.3"
     "@styled-icons/styled-icon" "^10.6.3"
 
 "@styled-icons/boxicons-solid@^10.37.0":
