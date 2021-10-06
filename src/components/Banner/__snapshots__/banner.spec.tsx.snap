@@ -75,11 +75,11 @@ exports[`<Banner /> should render correctly 1`] = `
 }
 
 @media (max-width:1170px) {
-  .c0 .sc-gtsrHT {
+  .c0 .sc-gsTEea {
     right: 0;
   }
 
-  .c0 .sc-gtsrHT::before {
+  .c0 .sc-gsTEea::before {
     display: none;
   }
 }
