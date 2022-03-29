@@ -3,51 +3,6 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: weekly
+    interval: monthly
     time: "08:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: "@storybook/addon-backgrounds"
-    versions:
-    - 6.2.2
-    - 6.2.3
-    - 6.2.9
-  - dependency-name: styled-components
-    versions:
-    - 5.2.3
-  - dependency-name: "@storybook/react"
-    versions:
-    - 6.2.2
-  - dependency-name: "@storybook/addon-essentials"
-    versions:
-    - 6.1.20
-    - 6.2.2
-  - dependency-name: "@typescript-eslint/eslint-plugin"
-    versions:
-    - 4.15.2
-    - 4.16.1
-    - 4.17.0
-  - dependency-name: "@types/node"
-    versions:
-    - 14.14.31
-    - 14.14.32
-    - 14.14.34
-  - dependency-name: "@testing-library/user-event"
-    versions:
-    - 12.8.0
-    - 12.8.1
-  - dependency-name: "@typescript-eslint/parser"
-    versions:
-    - 4.15.0
-    - 4.15.2
-    - 4.16.1
-  - dependency-name: eslint
-    versions:
-    - 7.20.0
-    - 7.21.0
-  - dependency-name: "@types/jest"
-    versions:
-    - 26.0.20
-  - dependency-name: typescript
-    versions:
-    - 4.2.2
+  open-pull-requests-limit: 5
